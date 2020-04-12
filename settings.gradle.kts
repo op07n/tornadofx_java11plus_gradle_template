@@ -2,9 +2,8 @@ rootProject.name = "hello-tornadofx"
 
 pluginManagement {
     repositories {
-        mavenLocal()
+        maven("https://oss.sonatype.org/content/repositories/snapshots")
         mavenCentral()
         maven("https://plugins.gradle.org/m2/")
-        maven("https://oss.sonatype.org/content/repositories/snapshots")
     }
 }
