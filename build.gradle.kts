@@ -10,14 +10,16 @@ version = "1.0-SNAPSHOT"
 repositories {
     maven("https://oss.sonatype.org/content/repositories/snapshots")
     mavenCentral()
-
+    mavenLocal()
 }
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("no.tornado:tornadofx:2.0.0-SNAPSHOT") {
         exclude(group = "org.openjfx")
     }
-    implementation("com.1stleg:jnativehook:2.1.0")
+
+    implementation(fileTree("libs") { include("*.jar") })
+
 }
 tasks {
     compileKotlin {
