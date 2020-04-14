@@ -19,6 +19,7 @@ dependencies {
     }
 
     implementation(fileTree("libs") { include("*.jar") })
+    implementation("org.bytedeco:javacv-platform:1.5.2")
 
 }
 tasks {
@@ -31,7 +32,7 @@ tasks {
 
     javafx {
         version = "14"
-        modules("javafx.controls")
+        modules("javafx.controls","javafx.swing")
 
     }
 

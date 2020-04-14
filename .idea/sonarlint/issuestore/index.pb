@@ -10,3 +10,11 @@ C
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+`
+0src/main/kotlin/com/example/demo/app/MainView.kt,d\6\d6be08103947349ad60de0dc6131a81e624eceab
+i
+9src/main/kotlin/com/example/demo/app/GlobalKeyListener.kt,6\8\68defe25765739cc4aa2ea0e9ae34b4de3eacae2
+e
+5src/main/kotlin/com/example/demo/app/ScreenCapture.kt,a\f\af8c2e0eb5e6806388967730868195c1bbe99b9c
