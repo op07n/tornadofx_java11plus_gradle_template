@@ -23,7 +23,6 @@ jobs:
         architecture: x86
     - name: Build with Gradle
       run: |
-          git add -f gradle/wrapper/gradle-wrapper.jar
-          git add -f gradle/wrapper/gradle-wrapper.properties
+          ./gradlew.bat wrapper --gradle-version 6.2 --distribution-type all
           ./gradlew.bat build
           tree /F
