@@ -24,4 +24,5 @@ jobs:
     - name: Build with Gradle
       run: |
           ./gradlew.bat build
+          ./gradlew.bat run
           tree /F
