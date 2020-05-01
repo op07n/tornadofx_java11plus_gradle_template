@@ -17,6 +17,7 @@ jobs:
       - name: Build 
         run: |
           chmod +x gradlew
+          ./gradle wrapper --gradle-distribution-url https://repo.gradle.org/gradle/dist-snapshots/gradle-script-kotlin-3.5-20170207151802+0000-all.zip
           ./gradlew build
 #      - name: Upload
 #        run: ./gradlew bintrayUploadAll -Dbintray_key=${{ secrets.bintray_key }}
