@@ -16,11 +16,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up JDK 1.8
+    - name: Set up JDK 
       uses: actions/setup-java@v1
       with:
         java-version: 11
+        architecture: x86
     - name: Build with Gradle
       run: |
+          ./gradlew.bat wrapper
           ./gradlew.bat build
           tree /F
