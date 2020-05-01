@@ -2,8 +2,7 @@ plugins {
     kotlin("jvm") version "1.3.71"
     id("application")
     id("org.openjfx.javafxplugin") version "0.0.9-SNAPSHOT"
-    id 'org.jetbrains.kotlin.jvm' version '1.3.71' apply(false)
-}
+    id("org.jetbrains.kotlin.jvm") version "1.3.71"
 
 group = "org.example"
 version = "1.0-SNAPSHOT"
