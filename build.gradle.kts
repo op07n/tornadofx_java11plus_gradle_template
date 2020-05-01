@@ -12,8 +12,8 @@ repositories {
     mavenCentral()
     jcenter()
     maven("https://oss.sonatype.org/content/repositories/snapshots")
-    maven { url "https://repo.maven.apache.org/maven2" }
-    maven { url 'https://jitpack.io' }
+    maven("https://repo.maven.apache.org/maven2")
+    maven("https://jitpack.io")
 }
 
 
